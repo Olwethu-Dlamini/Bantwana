@@ -1,0 +1,510 @@
+[03-Sep-2025 15:48:08 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 15:48:21 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 15:48:26 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 16:20:21 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 16:20:28 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 16:20:30 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 16:20:31 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 16:20:32 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 16:20:32 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 16:20:33 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 16:20:40 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 16:20:47 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[03-Sep-2025 16:21:05 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:11:12 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:11:17 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:11:34 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:11:47 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:12:26 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:12:34 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:13:07 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:41:34 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:41:37 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:41:39 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[05-Sep-2025 14:41:47 Africa/Johannesburg] Warning: Could not determine BASE_URL dynamically in admin script. Using fallback.
+[12-Sep-2025 12:18:50 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_PATH" in /home/bantwana/admin/pages/about_edit.php:7
+Stack trace:
+#0 /home/bantwana/admin/pages/about_edit.php(23): loadAdminClass()
+#1 {main}
+  thrown in /home/bantwana/admin/pages/about_edit.php on line 7
+[18-Sep-2025 15:54:54 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Call to undefined method SettingModel::set() in /home/bantwana/admin/pages/blog_manage.php:88
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/blog_manage.php on line 88
+[18-Sep-2025 15:55:04 Africa/Johannesburg] SettingModel getMultiple - Query: SELECT setting_key, setting_value FROM settings WHERE setting_key IN (?,?,?)
+[18-Sep-2025 15:55:04 Africa/Johannesburg] SettingModel getMultiple - Keys: Array
+(
+    [0] => blog_hero_image
+    [1] => blog_hero_title
+    [2] => blog_hero_subtitle
+)
+
+[18-Sep-2025 15:55:04 Africa/Johannesburg] SettingModel getMultiple - Results: Array
+(
+    [0] => Array
+        (
+            [setting_key] => blog_hero_image
+            [setting_value] => blog_hero_68cc08c98e2dd.jpg
+        )
+
+    [1] => Array
+        (
+            [setting_key] => blog_hero_subtitle
+            [setting_value] => Stay updated with our latest news and stories.
+        )
+
+    [2] => Array
+        (
+            [setting_key] => blog_hero_title
+            [setting_value] => Blog
+        )
+
+)
+
+[18-Sep-2025 15:55:04 Africa/Johannesburg] SettingModel getMultiple - Final settings: Array
+(
+    [blog_hero_image] => blog_hero_68cc08c98e2dd.jpg
+    [blog_hero_subtitle] => Stay updated with our latest news and stories.
+    [blog_hero_title] => Blog
+)
+
+[18-Sep-2025 15:55:10 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Call to undefined method SettingModel::set() in /home/bantwana/admin/pages/blog_manage.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/blog_manage.php on line 132
+[18-Sep-2025 16:08:37 Africa/Johannesburg] SettingModel::getMultiple - SQL: SELECT setting_key, setting_value FROM settings WHERE setting_key IN (?,?,?)
+[18-Sep-2025 16:08:37 Africa/Johannesburg] SettingModel::getMultiple - Keys: Array
+(
+    [0] => blog_hero_image
+    [1] => blog_hero_title
+    [2] => blog_hero_subtitle
+)
+
+[18-Sep-2025 16:08:37 Africa/Johannesburg] SettingModel::getMultiple - Results: Array
+(
+    [0] => Array
+        (
+            [setting_key] => blog_hero_image
+            [setting_value] => blog_hero_68cc08c98e2dd.jpg
+        )
+
+    [1] => Array
+        (
+            [setting_key] => blog_hero_subtitle
+            [setting_value] => Stay updated with our latest news and stories..
+        )
+
+    [2] => Array
+        (
+            [setting_key] => blog_hero_title
+            [setting_value] => Blog
+        )
+
+)
+
+[18-Sep-2025 16:08:37 Africa/Johannesburg] SettingModel::getMultiple - Final settings: Array
+(
+    [blog_hero_image] => blog_hero_68cc08c98e2dd.jpg
+    [blog_hero_title] => Blog
+    [blog_hero_subtitle] => Stay updated with our latest news and stories..
+)
+
+[18-Sep-2025 16:08:47 Africa/Johannesburg] SettingModel::getMultiple - SQL: SELECT setting_key, setting_value FROM settings WHERE setting_key IN (?,?,?)
+[18-Sep-2025 16:08:47 Africa/Johannesburg] SettingModel::getMultiple - Keys: Array
+(
+    [0] => blog_hero_image
+    [1] => blog_hero_title
+    [2] => blog_hero_subtitle
+)
+
+[18-Sep-2025 16:08:47 Africa/Johannesburg] SettingModel::getMultiple - Results: Array
+(
+    [0] => Array
+        (
+            [setting_key] => blog_hero_image
+            [setting_value] => blog_hero_68cc126f245cd.jpg
+        )
+
+    [1] => Array
+        (
+            [setting_key] => blog_hero_subtitle
+            [setting_value] => Stay updated with our latest news and stories..
+        )
+
+    [2] => Array
+        (
+            [setting_key] => blog_hero_title
+            [setting_value] => Blog
+        )
+
+)
+
+[18-Sep-2025 16:08:47 Africa/Johannesburg] SettingModel::getMultiple - Final settings: Array
+(
+    [blog_hero_image] => blog_hero_68cc126f245cd.jpg
+    [blog_hero_title] => Blog
+    [blog_hero_subtitle] => Stay updated with our latest news and stories..
+)
+
+[18-Sep-2025 16:26:47 Africa/Johannesburg] JobModel: Database connection successful
+[18-Sep-2025 16:26:47 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[18-Sep-2025 16:28:22 Africa/Johannesburg] JobModel: Database connection successful
+[18-Sep-2025 16:28:22 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[18-Sep-2025 16:29:44 Africa/Johannesburg] JobModel: Database connection successful
+[18-Sep-2025 16:29:44 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[18-Sep-2025 16:37:35 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Class "DonateModel" not found in /home/bantwana/admin/pages/donate_edit.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/donate_edit.php on line 132
+[19-Sep-2025 09:45:34 Africa/Johannesburg] InternshipModel: Database connection successful
+[19-Sep-2025 09:45:34 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Call to undefined method InternshipModel::getMultiple() in /home/bantwana/admin/pages/internship_edit.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/internship_edit.php on line 96
+[19-Sep-2025 09:46:11 Africa/Johannesburg] InternshipModel: Database connection successful
+[19-Sep-2025 09:46:11 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Call to undefined method InternshipModel::getMultiple() in /home/bantwana/admin/pages/internship_edit.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/internship_edit.php on line 96
+[19-Sep-2025 10:12:21 Africa/Johannesburg] InternshipModel: Database connection successful
+[19-Sep-2025 10:12:21 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Call to undefined method InternshipModel::getMultiple() in /home/bantwana/admin/pages/internship_edit.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/internship_edit.php on line 69
+[19-Sep-2025 10:33:08 Africa/Johannesburg] InternshipModel: Database connection successful
+[19-Sep-2025 10:33:08 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68b9a1123dd46.jpg
+)
+
+[19-Sep-2025 10:33:15 Africa/Johannesburg] InternshipModel: Database connection successful
+[19-Sep-2025 10:33:15 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_title = Gain Experience, Make an Impact.
+[19-Sep-2025 10:33:15 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_subtitle = Apply your academic knowledge in a real-world development setting
+[19-Sep-2025 10:33:15 Africa/Johannesburg] InternshipModel: Database connection successful
+[19-Sep-2025 10:33:15 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact.
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68b9a1123dd46.jpg
+)
+
+[19-Sep-2025 10:33:29 Africa/Johannesburg] InternshipModel: Database connection successful
+[19-Sep-2025 10:33:29 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_title = Gain Experience, Make an Impact
+[19-Sep-2025 10:33:29 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_subtitle = Apply your academic knowledge in a real-world development setting
+[19-Sep-2025 10:33:29 Africa/Johannesburg] InternshipModel: Database connection successful
+[19-Sep-2025 10:33:29 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68b9a1123dd46.jpg
+)
+
+[19-Sep-2025 14:19:36 Africa/Johannesburg] InternshipModel: Database connection successful
+[19-Sep-2025 14:19:36 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68b9a1123dd46.jpg
+)
+
+[20-Sep-2025 22:33:12 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Class "ProgramModel" not found in /home/bantwana/admin/pages/programs_manage.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/programs_manage.php on line 6
+[20-Sep-2025 22:33:58 Africa/Johannesburg] PHP Warning:  Undefined variable $page_title in /home/bantwana/admin/pages/programs_manage.php on line 12
+[20-Sep-2025 22:33:58 Africa/Johannesburg] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/bantwana/admin/pages/programs_manage.php on line 12
+[20-Sep-2025 22:33:58 Africa/Johannesburg] PHP Warning:  Undefined array key "csrf_token" in /home/bantwana/admin/pages/programs_manage.php on line 118
+[20-Sep-2025 22:33:58 Africa/Johannesburg] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/bantwana/admin/pages/programs_manage.php on line 118
+[20-Sep-2025 22:33:58 Africa/Johannesburg] PHP Warning:  Undefined array key "csrf_token" in /home/bantwana/admin/pages/programs_manage.php on line 169
+[20-Sep-2025 22:33:58 Africa/Johannesburg] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/bantwana/admin/pages/programs_manage.php on line 169
+[20-Sep-2025 22:33:58 Africa/Johannesburg] PHP Warning:  Undefined array key "csrf_token" in /home/bantwana/admin/pages/programs_manage.php on line 212
+[20-Sep-2025 22:33:58 Africa/Johannesburg] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/bantwana/admin/pages/programs_manage.php on line 212
+[20-Sep-2025 22:33:58 Africa/Johannesburg] PHP Warning:  Undefined array key "csrf_token" in /home/bantwana/admin/pages/programs_manage.php on line 537
+[20-Sep-2025 22:33:58 Africa/Johannesburg] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/bantwana/admin/pages/programs_manage.php on line 537
+[20-Sep-2025 22:34:40 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Class "ProgramModel" not found in /home/bantwana/admin/pages/programs_manage.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/programs_manage.php on line 6
+[20-Sep-2025 22:59:32 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Undefined constant "Math" in /home/bantwana/admin/pages/publications_manage.php:449
+Stack trace:
+#0 /home/bantwana/admin/pages/publications_manage.php(591): formatFileSize()
+#1 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 449
+[20-Sep-2025 23:00:02 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Undefined constant "Math" in /home/bantwana/admin/pages/publications_manage.php:449
+Stack trace:
+#0 /home/bantwana/admin/pages/publications_manage.php(591): formatFileSize()
+#1 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 449
+[20-Sep-2025 23:00:17 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Undefined constant "Math" in /home/bantwana/admin/pages/publications_manage.php:449
+Stack trace:
+#0 /home/bantwana/admin/pages/publications_manage.php(591): formatFileSize()
+#1 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 449
+[20-Sep-2025 23:04:08 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Undefined constant "Math" in /home/bantwana/admin/pages/publications_manage.php:458
+Stack trace:
+#0 /home/bantwana/admin/pages/publications_manage.php(600): formatFileSize()
+#1 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 458
+[20-Sep-2025 23:18:05 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Undefined constant "Math" in /home/bantwana/admin/pages/publications_manage.php:458
+Stack trace:
+#0 /home/bantwana/admin/pages/publications_manage.php(605): formatFileSize()
+#1 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 458
+[20-Sep-2025 23:23:27 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Undefined constant "Math" in /home/bantwana/admin/pages/publications_manage.php:458
+Stack trace:
+#0 /home/bantwana/admin/pages/publications_manage.php(605): formatFileSize()
+#1 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 458
+[20-Sep-2025 23:32:58 Africa/Johannesburg] PHP Warning:  require_once(/home/bantwana/admin/pages/auth.php): Failed to open stream: No such file or directory in /home/bantwana/admin/pages/publications_manage.php on line 9
+[20-Sep-2025 23:32:58 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bantwana/admin/pages/auth.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bantwana/admin/pages/publications_manage.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 9
+[20-Sep-2025 23:33:20 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Call to undefined function getDB() in /home/bantwana/admin/pages/publications_manage.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 13
+[20-Sep-2025 23:33:59 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Call to undefined function getDB() in /home/bantwana/admin/pages/publications_manage.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 13
+[20-Sep-2025 23:35:05 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Call to undefined function e() in /home/bantwana/admin/pages/publications_manage.php:590
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 590
+[20-Sep-2025 23:35:44 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Undefined constant "Math" in /home/bantwana/admin/pages/publications_manage.php:458
+Stack trace:
+#0 /home/bantwana/admin/pages/publications_manage.php(605): formatFileSize()
+#1 {main}
+  thrown in /home/bantwana/admin/pages/publications_manage.php on line 458
+[21-Sep-2025 01:11:57 Africa/Johannesburg] Update Publication: [success] Publication 'YWEE BROILERS JOB AID' updated.
+[21-Sep-2025 01:12:21 Africa/Johannesburg] Update Publication: [success] Publication 'YWEE BROILERS JOB AID' updated.
+[21-Sep-2025 01:12:59 Africa/Johannesburg] Publication Upload - Name: publication online.txt, Extension: txt, Size: 8063
+[21-Sep-2025 01:12:59 Africa/Johannesburg] Create Publication: [success] Publication 'yrd' created.
+[21-Sep-2025 01:14:40 Africa/Johannesburg] Delete Publication: [success] Publication 'yrd' deleted.
+[21-Sep-2025 01:24:35 Africa/Johannesburg] Publication Upload - Name: publication online.txt, Extension: txt, Size: 8063
+[21-Sep-2025 01:24:35 Africa/Johannesburg] Create Publication: [success] Publication 'yrd' created.
+[21-Sep-2025 01:56:38 Africa/Johannesburg] Delete Publication: [success] Publication 'yrd' deleted.
+[21-Sep-2025 01:57:12 Africa/Johannesburg] Publication Upload - Name: publication online.txt, Extension: txt, Size: 8063
+[21-Sep-2025 01:57:12 Africa/Johannesburg] Create Publication: [success] Publication 'yes' created.
+[21-Sep-2025 01:58:17 Africa/Johannesburg] Hero Update: [success] Hero section updated.
+[21-Sep-2025 02:04:39 Africa/Johannesburg] JobModel: Database connection successful
+[21-Sep-2025 02:04:39 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[21-Sep-2025 02:15:19 Africa/Johannesburg] JobModel: Database connection successful
+[21-Sep-2025 02:15:19 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[21-Sep-2025 02:15:25 Africa/Johannesburg] Hero Update: [success] Hero section updated.
+[21-Sep-2025 02:15:25 Africa/Johannesburg] JobModel: Database connection successful
+[21-Sep-2025 02:15:25 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[21-Sep-2025 02:16:05 Africa/Johannesburg] JobModel: Database connection successful
+[21-Sep-2025 02:16:05 Africa/Johannesburg] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/bantwana/application/models/JobModel.php:56
+Stack trace:
+#0 /home/bantwana/admin/pages/careers_manage.php(111): JobModel->createJob()
+#1 {main}
+  thrown in /home/bantwana/application/models/JobModel.php on line 56
+[21-Sep-2025 02:16:11 Africa/Johannesburg] JobModel: Database connection successful
+[21-Sep-2025 02:16:11 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 07:50:46 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 07:50:46 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 08:11:39 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:11:39 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 08:11:47 Africa/Johannesburg] Hero Update: [success] Hero section updated.
+[23-Sep-2025 08:11:47 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:11:47 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 08:11:57 Africa/Johannesburg] Hero Update: [success] Hero section updated.
+[23-Sep-2025 08:11:57 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:11:57 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 08:12:37 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:12:37 Africa/Johannesburg] JobModel::createJob failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_by' in 'INSERT INTO' | Title: test online
+[23-Sep-2025 08:12:37 Africa/Johannesburg] Create Job: [error] Failed to save job to database.
+[23-Sep-2025 08:12:37 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:12:37 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 08:20:58 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:20:58 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 08:21:05 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:21:05 Africa/Johannesburg] Hero Update: Successfully saved title and subtitle
+[23-Sep-2025 08:21:05 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 08:23:33 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:23:33 Africa/Johannesburg] Hero Update: Successfully saved title and subtitle
+[23-Sep-2025 08:23:33 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 08:23:55 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:23:55 Africa/Johannesburg] JobModel::createJob failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_by' in 'INSERT INTO' | Title: test online
+[23-Sep-2025 08:23:55 Africa/Johannesburg] Create Job: Failed to create job: 'test online'
+[23-Sep-2025 08:23:55 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 08:31:12 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:31:12 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 08:31:43 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:31:43 Africa/Johannesburg] JobModel::createJob: Created job ID 2: test online
+[23-Sep-2025 08:31:43 Africa/Johannesburg] Create Job: Successfully created job ID 2: 'test online'
+[23-Sep-2025 08:31:43 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 1 jobs
+[23-Sep-2025 08:39:57 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:39:57 Africa/Johannesburg] JobModel::getJobById: Found job ID 2
+[23-Sep-2025 08:39:57 Africa/Johannesburg] JobModel::updateJob: Updated job ID 2: test online
+[23-Sep-2025 08:39:57 Africa/Johannesburg] Update Job: Successfully updated job ID 2: 'test online'
+[23-Sep-2025 08:39:57 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 1 jobs
+[23-Sep-2025 08:40:16 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:40:16 Africa/Johannesburg] JobModel::getJobById: Found job ID 2
+[23-Sep-2025 08:40:16 Africa/Johannesburg] JobModel::toggleActiveStatus: Job ID 2 deactivated
+[23-Sep-2025 08:40:16 Africa/Johannesburg] Toggle Job Status: Successfully toggled job ID 2 to inactive
+[23-Sep-2025 08:40:16 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 1 jobs
+[23-Sep-2025 08:40:28 Africa/Johannesburg] JobModel: Database connection successful
+[23-Sep-2025 08:40:28 Africa/Johannesburg] JobModel::getJobById: Found job ID 2
+[23-Sep-2025 08:40:28 Africa/Johannesburg] JobModel::deleteJob: Deleted job ID 2
+[23-Sep-2025 08:40:28 Africa/Johannesburg] Delete Job: Successfully deleted job ID 2: 'test online'
+[23-Sep-2025 08:40:28 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[23-Sep-2025 09:05:59 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Class "ContactModel" not found in /home/bantwana/admin/pages/contact_manage.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/contact_manage.php on line 141
+[23-Sep-2025 09:06:01 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Class "ContactModel" not found in /home/bantwana/admin/pages/contact_manage.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/contact_manage.php on line 141
+[23-Sep-2025 09:06:02 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Class "ContactModel" not found in /home/bantwana/admin/pages/contact_manage.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/contact_manage.php on line 141
+[23-Sep-2025 11:07:40 Africa/Johannesburg] Update Publication: [success] Publication 'YWEE BROILERS JOB AID' updated.
+[23-Sep-2025 11:08:10 Africa/Johannesburg] Update Publication: [success] Publication 'HORTICULTURE_JOB_AID' updated.
+[23-Sep-2025 11:08:34 Africa/Johannesburg] Update Publication: [success] Publication 'LL Manual FINAL english' updated.
+[23-Sep-2025 11:08:53 Africa/Johannesburg] Delete Publication: [success] Publication 'yes' deleted.
+[23-Sep-2025 11:09:16 Africa/Johannesburg] Update Publication: [success] Publication 'POY MANUAL Modules 1_6_FINAL-2' updated.
+[23-Sep-2025 11:10:30 Africa/Johannesburg] Update Publication: [success] Publication 'POY MANUAL Modules 1_6_FINAL-2' updated.
+[23-Sep-2025 15:45:03 Africa/Johannesburg] InternshipModel: Database connection successful
+[23-Sep-2025 15:45:03 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68b9a1123dd46.jpg
+)
+
+[23-Sep-2025 15:45:13 Africa/Johannesburg] InternshipModel: Database connection successful
+[23-Sep-2025 15:45:13 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_title = Gain Experience, Make an Impact
+[23-Sep-2025 15:45:13 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_subtitle = Apply your academic knowledge in a real-world development setting
+[23-Sep-2025 15:45:13 Africa/Johannesburg] InternshipModel: Database connection successful
+[23-Sep-2025 15:45:13 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68b9a1123dd46.jpg
+)
+
+[23-Sep-2025 15:45:37 Africa/Johannesburg] InternshipModel: Database connection successful
+[23-Sep-2025 15:45:37 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_image = internships_hero_68d2a48190493.jpg
+[23-Sep-2025 15:45:37 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_title = Gain Experience, Make an Impact
+[23-Sep-2025 15:45:37 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_subtitle = Apply your academic knowledge in a real-world development setting
+[23-Sep-2025 15:45:37 Africa/Johannesburg] InternshipModel: Database connection successful
+[23-Sep-2025 15:45:37 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68d2a48190493.jpg
+)
+
+[23-Sep-2025 15:45:37 Africa/Johannesburg] InternshipModel: Database connection successful
+[23-Sep-2025 15:45:37 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_image = internships_hero_68d2a481e3f33.jpg
+[23-Sep-2025 15:45:37 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_title = Gain Experience, Make an Impact
+[23-Sep-2025 15:45:37 Africa/Johannesburg] setHeroSetting: Successfully updated internships_hero_subtitle = Apply your academic knowledge in a real-world development setting
+[23-Sep-2025 15:45:37 Africa/Johannesburg] InternshipModel: Database connection successful
+[23-Sep-2025 15:45:37 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68d2a481e3f33.jpg
+)
+
+[23-Sep-2025 17:55:00 Africa/Johannesburg] Hero Image Upload - Name: Partner with US 2.jpg, Extension: jpg, Size: 236577
+[23-Sep-2025 17:55:00 Africa/Johannesburg] Hero Update: [success] Hero image updated.
+[24-Sep-2025 05:37:55 Africa/Johannesburg] PHP Warning:  require_once(/home/bantwana/admin/pages/../../models/ContactModel.php): Failed to open stream: No such file or directory in /home/bantwana/admin/pages/contact_manage.php on line 4
+[24-Sep-2025 05:37:55 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bantwana/admin/pages/../../models/ContactModel.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bantwana/admin/pages/contact_manage.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/contact_manage.php on line 4
+[24-Sep-2025 05:37:58 Africa/Johannesburg] PHP Warning:  require_once(/home/bantwana/admin/pages/../../models/ContactModel.php): Failed to open stream: No such file or directory in /home/bantwana/admin/pages/contact_manage.php on line 4
+[24-Sep-2025 05:37:58 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bantwana/admin/pages/../../models/ContactModel.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bantwana/admin/pages/contact_manage.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/contact_manage.php on line 4
+[24-Sep-2025 05:38:03 Africa/Johannesburg] PHP Warning:  require_once(/home/bantwana/admin/pages/../../models/ContactModel.php): Failed to open stream: No such file or directory in /home/bantwana/admin/pages/contact_manage.php on line 4
+[24-Sep-2025 05:38:03 Africa/Johannesburg] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bantwana/admin/pages/../../models/ContactModel.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bantwana/admin/pages/contact_manage.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/bantwana/admin/pages/contact_manage.php on line 4
+[28-Sep-2025 00:52:41 Africa/Johannesburg] JobModel: Database connection successful
+[28-Sep-2025 00:52:41 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[28-Sep-2025 00:52:52 Africa/Johannesburg] JobModel: Database connection successful
+[28-Sep-2025 00:52:52 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[28-Sep-2025 01:56:28 Africa/Johannesburg] InternshipModel: Database connection successful
+[28-Sep-2025 01:56:28 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68d2a481e3f33.jpg
+)
+
+[28-Sep-2025 01:58:48 Africa/Johannesburg] InternshipModel: Database connection successful
+[28-Sep-2025 01:58:48 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68d2a481e3f33.jpg
+)
+
+[28-Sep-2025 02:02:07 Africa/Johannesburg] JobModel: Database connection successful
+[28-Sep-2025 02:02:07 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[28-Sep-2025 02:06:25 Africa/Johannesburg] JobModel: Database connection successful
+[28-Sep-2025 02:06:25 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[02-Oct-2025 16:39:04 Africa/Johannesburg] InternshipModel: Database connection successful
+[02-Oct-2025 16:39:04 Africa/Johannesburg] getHeroSettings: Retrieved settings: Array
+(
+    [internships_hero_title] => Gain Experience, Make an Impact
+    [internships_hero_subtitle] => Apply your academic knowledge in a real-world development setting
+    [internships_hero_image] => internships_hero_68d2a481e3f33.jpg
+)
+
+[02-Oct-2025 16:39:16 Africa/Johannesburg] JobModel: Database connection successful
+[02-Oct-2025 16:39:16 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[02-Oct-2025 16:42:11 Africa/Johannesburg] JobModel: Database connection successful
+[02-Oct-2025 16:42:11 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[02-Oct-2025 16:43:31 Africa/Johannesburg] JobModel: Database connection successful
+[02-Oct-2025 16:43:31 Africa/Johannesburg] Hero Update: Successfully saved title and subtitle
+[02-Oct-2025 16:43:31 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[02-Oct-2025 16:45:01 Africa/Johannesburg] Publication Upload - Name: contact(6).txt, Extension: txt, Size: 2739
+[02-Oct-2025 16:45:01 Africa/Johannesburg] Create Publication: [success] Publication 'Annual reports' created.
+[02-Oct-2025 16:45:33 Africa/Johannesburg] Delete Publication: [success] Publication 'Annual reports' deleted.
+[02-Oct-2025 16:45:41 Africa/Johannesburg] Delete Publication: [error] Publication not found.
+[02-Oct-2025 16:53:03 Africa/Johannesburg] JobModel: Database connection successful
+[02-Oct-2025 16:53:03 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[03-Oct-2025 07:57:20 Africa/Johannesburg] JobModel: Database connection successful
+[03-Oct-2025 07:57:20 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[03-Oct-2025 08:25:48 Africa/Johannesburg] JobModel: Database connection successful
+[03-Oct-2025 08:25:48 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[03-Oct-2025 08:26:07 Africa/Johannesburg] JobModel: Database connection successful
+[03-Oct-2025 08:26:07 Africa/Johannesburg] Create Job: Missing required fields - Title: 'test online', Location: 'Manzini, Eswatini', Description: 0
+[03-Oct-2025 08:26:07 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[03-Oct-2025 08:26:34 Africa/Johannesburg] JobModel: Database connection successful
+[03-Oct-2025 08:26:34 Africa/Johannesburg] Create Job: Missing required fields - Title: 'test online', Location: 'Manzini, Eswatini', Description: 0
+[03-Oct-2025 08:26:34 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[03-Oct-2025 08:27:49 Africa/Johannesburg] JobModel: Database connection successful
+[03-Oct-2025 08:27:49 Africa/Johannesburg] Create Job: Missing required fields - Title: 'test online', Location: 'Manzini, Eswatini', Description: 0
+[03-Oct-2025 08:27:49 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[03-Oct-2025 08:27:53 Africa/Johannesburg] JobModel: Database connection successful
+[03-Oct-2025 08:27:53 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[03-Oct-2025 08:28:19 Africa/Johannesburg] JobModel: Database connection successful
+[03-Oct-2025 08:28:19 Africa/Johannesburg] JobModel::createJob: Created job ID 3: test online
+[03-Oct-2025 08:28:19 Africa/Johannesburg] Create Job: Successfully created job ID 3: 'test online'
+[03-Oct-2025 08:28:19 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 1 jobs
+[03-Oct-2025 08:29:15 Africa/Johannesburg] JobModel: Database connection successful
+[03-Oct-2025 08:29:15 Africa/Johannesburg] JobModel::getJobById: Found job ID 3
+[03-Oct-2025 08:29:15 Africa/Johannesburg] JobModel::toggleActiveStatus: Job ID 3 deactivated
+[03-Oct-2025 08:29:15 Africa/Johannesburg] Toggle Job Status: Successfully toggled job ID 3 to inactive
+[03-Oct-2025 08:29:15 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 1 jobs
+[03-Oct-2025 08:29:37 Africa/Johannesburg] JobModel: Database connection successful
+[03-Oct-2025 08:29:37 Africa/Johannesburg] JobModel::getJobById: Found job ID 3
+[03-Oct-2025 08:29:37 Africa/Johannesburg] JobModel::deleteJob: Deleted job ID 3
+[03-Oct-2025 08:29:37 Africa/Johannesburg] Delete Job: Successfully deleted job ID 3: 'test online'
+[03-Oct-2025 08:29:37 Africa/Johannesburg] JobModel::getAllJobs: Retrieved 0 jobs
+[03-Oct-2025 08:41:30 Africa/Johannesburg] Publication Upload - Name: contact(6).txt, Extension: txt, Size: 2739
+[03-Oct-2025 08:41:30 Africa/Johannesburg] Create Publication: [success] Publication 'Annual reports' created.
+[03-Oct-2025 08:42:09 Africa/Johannesburg] Delete Publication: [success] Publication 'Annual reports' deleted.
