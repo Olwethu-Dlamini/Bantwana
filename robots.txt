@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /application/
+Disallow: /logs/
+Disallow: /tmp/
+Disallow: /uploads/
+
+Sitemap: https://bantwana.org.sz/sitemap.xml
